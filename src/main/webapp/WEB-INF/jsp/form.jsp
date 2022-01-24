@@ -11,10 +11,12 @@
 <body>
 등록하는 페이지~
 <form action="/list" method="post">
-    이메일: <input name="name" />
-    이름: <input name="email" />
-    <button type="submit">등록</button>
+    이메일: <input id="name" name="name" value="${user.name}"/>
+    이름: <input id="email" name="email" value="${user.email}" />
+    <button is="submit" type="submit">등록</button>
 </form>
-
 </body>
+
+
+
 </html>
